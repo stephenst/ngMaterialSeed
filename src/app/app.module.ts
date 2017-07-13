@@ -4,10 +4,12 @@ import { MaterialModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +17,11 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ],
+  entryComponents: [
+    ModalComponent
+  ]
 })
 export class AppModule { }
