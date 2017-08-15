@@ -10,7 +10,7 @@
   "bugs": {
     "url" : "https://github.com/stephenst/ngMaterialSeed/issues"
   , "email" : "tonystephens@gmail.com"
-  }
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
